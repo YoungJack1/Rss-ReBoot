@@ -30,8 +30,8 @@ jobs:
         python rss.py
     - name: Commit
       run: |
-        git config --global user.email leetao94cn@gmail.com
-        git config --global user.name lt94
+        git config --global user.email huxiaohan_hzhc@163.com
+        git config --global user.name hxh
         git add .
         git commit -m "update" -a
     - name: Push changes
